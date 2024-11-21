@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="40.276 92.337 192.534 62.868" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <style bx:fonts="Alatsi">@import url(https://fonts.googleapis.com/css2?family=Alatsi%3Aital%2Cwght%400%2C400&amp;display=swap);</style>
+  </defs>
+  <title>path21</title>
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="matrix(0.363281, 0, 0, 0.363281, 24.259335, 80.347717)">
+    <text style="fill: rgb(51, 51, 51); font-family: Alatsi; font-size: 115.6px; white-space: pre;" x="252.295" y="153.747">Azure</text>
+    <path d="M 158.156 161.734 C 176.547 158.485 191.736 155.796 191.91 155.759 L 192.227 155.692 L 174.865 135.04 C 165.316 123.682 157.503 114.345 157.503 114.291 C 157.503 114.189 175.431 64.82 175.531 64.644 C 175.565 64.585 187.766 85.649 205.106 115.704 C 221.341 143.842 234.725 167.042 234.85 167.259 L 235.076 167.654 L 179.898 167.647 L 124.72 167.64 L 158.156 161.734 Z M 91.936 155.436 C 91.936 155.407 100.117 141.205 110.116 123.877 L 128.295 92.371 L 149.482 74.591 C 161.135 64.812 170.7 56.8 170.739 56.784 C 170.777 56.77 170.624 57.156 170.398 57.642 C 170.173 58.128 159.82 80.333 147.392 106.987 L 124.797 155.447 L 108.367 155.468 C 99.33 155.479 91.936 155.465 91.936 155.436 Z" fill="#0089D6" fill-rule="nonzero"/>
+  </g>
+</svg>
