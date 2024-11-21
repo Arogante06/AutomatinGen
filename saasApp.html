@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">   
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatic Gen | landig page</title>
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/7747/7747239.png">
+	<link rel="icon" href="https://cdn-icons-png.flaticon.com/512/7747/7747239.png" type="image/x-icon">
+    <meta name="description" content="Full-featured, professional-looking software, saas and startup website template.">
+    <meta name="keywords" content="saas, saas template, site template, software, startup, digital product, html5, landing, marketing, bootstrap, uikit3, agency, ai, digital agency, it solutions, nodejs">
+    <!-- <link rel="canonical" href="https://unistudio.co/html/Lexend"> -->
+    <meta name="theme-color" content="#178d72">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Lexend">
+    <meta property="og:description" content="Full-featured, Professional-looking SaaS, Software and Startup Site Template.">
+    <!-- <meta property="og:url" content="https://unistudio.co/html/lexend/"> -->
+    <meta property="og:site_name" content="Lexend">
+    <meta property="og:image" content="../assets/images/common/seo-image.jpg">
+    <meta property="og:image:width" content="1180">
+    <meta property="og:image:height" content="600">
+    <meta property="og:image:type" content="image/png">
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Lexend">
+    <meta name="twitter:description" content="Full-featured, Professional-looking SaaS, Software and Startup Site Template.">
+    <meta name="twitter:image" content="../assets/images/common/seo-image.jpg">
+
+    <link rel="canonical" href="https://unistudio.co/html/lexend/">
+
+    <!-- CSS ADICIONAL FOR ALERTS -->
+    <link href="../static/dist/css/adicional.css" rel="stylesheet" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- preload head styles -->
+    <link rel="preload" href="../static/assets/css/unicons.min.css" as="style">
+    <link rel="preload" href="../static/assets/css/swiper-bundle.min.css" as="style">
+
+    <!-- preload footer scripts -->
+    <link rel="preload" href="../static/assets/js/libs/jquery.min.js" as="script">
+    <link rel="preload" href="../static/assets/js/libs/scrollmagic.min.js" as="script">
+    <link rel="preload" href="../static/assets/js/libs/swiper-bundle.min.js" as="script">
+    <link rel="preload" href="../static/assets/js/libs/anime.min.js" as="script">
+    <link rel="preload" href="../static/assets/js/helpers/data-attr-helper.js" as="script">
+    <link rel="preload" href="../static/assets/js/helpers/swiper-helper.js" as="script">
+    <link rel="preload" href="../static/assets/js/helpers/anime-helper.js" as="script">
+    <link rel="preload" href="../static/assets/js/helpers/anime-helper-defined-timelines.js" as="script">
+    <link rel="preload" href="../static/assets/js/uikit-components-bs.js" as="script">
+    <link rel="preload" href="../static/assets/js/app.js" as="script">
+
+    <!-- app head for bootstrap core -->
+    <script src="../static/assets/js/app-head-bs.js"></script>
+
+    <!-- include uni-core components -->
+    <link rel="stylesheet" href="../static/assets/js/uni-core/css/uni-core.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+
+    <!-- include styles -->
+    <!-- <link rel="stylesheet" href="../static/assets/css/unicons.min.css"> -->
+    <link rel="stylesheet" href="../static/assets/css/prettify.min.css">
+    <link rel="stylesheet" href="../static/assets/css/swiper-bundle.min.css">
+
+    <!-- include main style -->
+    <link rel="stylesheet" href="../static/assets/css/theme/main.min.purge.css">
+
+    <!-- include scripts -->
+    <script src="../static/assets/js/uni-core/js/uni-core-bundle.min.js"></script>
+
+</head>
+<body class="uni-body panel bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 overflow-x-hidden">
+
+        <!--  Search modal -->
+        <div id="uc-search-modal" class="uc-modal-full uc-modal" data-uc-modal="overlay: true">
+            <div class="uc-modal-dialog d-flex justify-center bg-white text-dark dark:bg-gray-900 dark:text-white" data-uc-height-viewport="">
+                <div class="uc-modal-close-full m-1 p-0 vstack gap-narrow text-center">
+                    <button class="icon-3 btn btn-md btn-dark dark:bg-white dark:text-dark w-24px sm:w-32px h-24px sm:h-32px rounded-circle flex-1" type="button">
+                        <i class="unicon-close"></i>
+                    </button>
+                    <span class="ft-tertiary fs-7">ESC</span>
+                </div>
+
+                <div class="panel w-100 sm:w-500px px-2 py-10">
+                    <h3 class="h4 sm:h2 text-center">What are you looking for?</h3>
+                    <form class="hstack gap-1 mt-4 border-bottom p-narrow dark:border-gray-700" action="https://unistudio.co/html/lexend/main/index-4?">
+                        <span class="d-inline-flex justify-center items-center w-24px sm:w-40 h-24px sm:h-40px opacity-50"><i class="unicon-search icon-3"></i></span>
+                        <input type="search" name="q" class="form-control-plaintext ms-1 fs-6 sm:fs-5 w-full dark:text-white" placeholder="Type your keyword.." aria-label="Search" autofocus>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    <!-- Bottom Actions Sticky -->
+    <div class="backtotop-wrap position-fixed bottom-0 end-0 z-99 m-2 vstack">
+        <div class="darkmode-trigger cstack w-40px h-40px rounded-circle text-none bg-gray-100 dark:bg-gray-700 dark:text-white" data-darkmode-toggle="">
+            <label class="switch">
+                <span class="sr-only">Dark mode toggle</span>
+                <input type="checkbox" id="darkmode-toggle">
+                <span class="">
+                    <i class="bi bi-moon" id="darkmode-icon"></i>
+                </span>
+            </label>
+        </div>
+        <a class="btn btn-sm bg-primary text-white w-40px h-40px rounded-circle" href="to_top.html" data-uc-backtotop>
+            <i class="bi bi-chevron-up"></i>
+        </a>
+    </div>
+
+        <!-- Header start -->
+        <header class="uc-header uc-navbar-sticky-wrap z-999" style="--uc-nav-height: 80px" data-uc-sticky="start: 100vh; show-on-up: true; animation: uc-animation-slide-top; sel-target: .uc-navbar-container; cls-active: uc-navbar-sticky; cls-inactive: uc-navbar-transparent; end: !*;">
+            <nav class="uc-navbar-container uc-navbar-float ft-tertiary z-1" data-anime="translateY: [-40, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 0;">
+                <div class="container max-w-xl">
+                    <div class="uc-navbar min-h-64px lg:min-h-80px text-gray-900 dark:text-white" data-uc-navbar="mode: click; animation: uc-animation-slide-top-small; duration: 150;">
+                        <div class="uc-navbar-left">
+                            <div class="uc-logo text-dark dark:text-white">
+                                <a class='panel text-none' href='/saasApp' style='width: 140px'>
+                                    <!-- <img class="dark:d-none" src="https://unistudio.co/html/lexend/assets/images/common/logo-light.svg" alt="Lexend">
+                                    <img class="d-none dark:d-block" src="https://unistudio.co/html/lexend/assets/images/common/logo-dark.svg" alt="Lexend"> -->
+                                    <img  src="../static/images_pages/A_Gen-logo-light.svg" alt="automatic gen">
+                                </a>
+                            </div>
+                           
+                        </div>
+                        <!-- DIV PARA BTN DEMO -->
+                        <div class="uc-navbar-right">
+                            <ul class="uc-navbar-nav gap-3 xl:gap-4 d-none lg:d-flex fw-medium ltr:ms-2 ltr:xl:ms-4 rtl:me-2 rtl:xl:me-4">
+                                <li>
+                                    <a href="#" style="color: antiquewhite;">Agendar Demo</a>
+                                    <div class="uc-navbar-dropdown p-3 w-300px ft-primary text-unset fs-6 fw-normal p-0 hide-scrollbar rounded-2 overflow-hidden" data-uc-drop="mode: click; offset: 0; boundary: !.uc-navbar; animation: uc-animation-slide-top-small; duration: 150;">
+                                        <p class="fs-7">Agenda para recibir la demostracion del sistema de automatizacion mediante la informacion requerida.</p>
+                                        <form class="vstack gap-1 my-2" method="post" action="{{url_for('saas')}}">
+                                            <input class="form-control form-control-sm rounded-default fs-7 w-full bg-gray-25 dark:bg-opacity-0 dark:text-white dark:border-gray-300 dark:border-opacity-30" type="text" placeholder="Nombre Completo" name="name" required>
+                                            <input class="form-control form-control-sm rounded-default fs-7 w-full bg-gray-25 dark:bg-opacity-0 dark:text-white dark:border-gray-300 dark:border-opacity-30" type="email" placeholder="Email de Contacto" name="email" required>
+                                            <div class="hstack items-center justify-between mt-1">
+                                                <div class="form-check m-0">
+                                                    <input id="header_request_demo_application" class="form-check-input rounded bg-white dark:bg-opacity-0 dark:text-white dark:border-gray-300 dark:border-opacity-30" type="checkbox" required>
+                                                    <label for="header_request_demo_application" class="hstack justify-between form-check-label fw-medium fs-7">He leido y acepto los <a class='uc-link text-underline ltr:ms-narrow rtl:me-narrow dark:text-secondary' href='page-terms.html'>términos</a>.</label>
+                                                </div>
+                                            </div>
+                                            <button class="btn btn-primary btn-sm rounded-default text-white mt-1" type="submit">Solicitar Agendamiento</button>
+                                        </form>
+                                        <p class="fs-7">Nuestra seguridad de datos con <a class='uc-link text-underline dark:text-secondary' target="_blank" href='politica-de-privacidad'>política de privacidad</a>.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <a class='btn btn-sm btn-primary rounded-default text-white text-none d-none lg:d-inline-flex' href='funnel'>Contacto Directo</a>
+                            <a class="d-block lg:d-none" href="#uc-menu-panel" data-uc-navbar-toggle-icon data-uc-toggle></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- Header end -->
+
+        <!-- Wrapper start -->
+        <div id="wrapper" class="wrap">
+
+            <!-- Section start -->
+            <div id="hero_header" class="hero-header section panel overflow-hidden" style="background: #002b25;">
+                <div class="position-cover bg-secondary dark:bg-gray-800" style="background: #002b25;"></div>
+                <div class="section-outer panel pt-8" style="background: #002b25;">
+                    <div class="container max-w-xl">
+                        <div class="section-inner panel">
+                            <div class="row child-cols justify-center lg:justify-between items-center g-0">
+                                <div class="col-12 sm:col-10 md:col-8 lg:col-5">
+                                    <div class="panel vstack gap-2 sm:text-center lg:text-start rtl:lg:text-end py-4" data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});">
+                                        <h1 class="h2 xl:display-5 mb-1 xl:mb-2" style="color: aliceblue;">
+                                            Procesos de tu Empresa<br>
+                                            <span class="text-primary dark:text-secondary">mejorados con</span> tecnología de vanguardia
+                                        </h1>
+                                        <p class="fs-6 lg:fs-5 text-white dark:text-white text-opacity-70" style="color: #fff;">Dile adios!, a los multiples programas, servicios o software antiguos y poco eficientes. Maneja tu Empresa con una herramienta multifuncional.</p>
+                                        <form class="row child-cols g-1 mt-1 sm:mt-2"  method="post" action="{{url_for('saas')}}">
+                                            <div>
+                                                <div class="form-icon-group inline-block">
+                                                    <input type="email" class="form-control rounded-default h-48px w-full bg-white dark:border-white dark:bg-opacity-10 dark:border-opacity-0 dark:text-white" name="email" autocomplete="email" placeholder="Tu email.." required="">
+                                                    <span class="form-icon text-gray dark:text-gray-300">
+                                                        <i class="bi bi-envelope"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 sm:col-auto">
+                                                <button class='btn btn-md btn-primary rounded-default h-48px w-100 lg:min-w-150px text-white' type="submit">
+                                                    <span class="d-none md:d-block">Enviar mi correo</span>
+                                                    <!-- <span class="d-block md:d-none">Sign up</span> -->
+                                                </button>
+                                            </div>
+                                        </form>
+                                        <p class="fs-7 text-white dark:text-white text-opacity-70">Seguridad de datos con nuestra <a class='uc-link text-underline dark:text-secondary' href='page-privacy.html'>política de privacidad</a>.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 lg:col-6">
+                                    <div class="expand-container mt-0 lg:mt-4 ltr:ms-n2 rtl:me-n2" data-anime="translateX: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});">
+                                        <img class="ltr:d-block rtl:d-none" src="../static/assets/images/assistant-ai.jpeg" alt="hero-mockup" style="border-radius: 5px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section end -->
+
+            <!-- Section start -->
+            <div id="companies_sponsores" class="companies-sponsores section panel overflow-hidden">
+                <div class="section-outer panel py-6">
+                    <div class="container sm:max-w-lg xl:max-w-xl">
+                        <div class="section-inner panel">
+                            <div class="brands panel overflow-hidden" data-anime="onview: true; translateY: [-16, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 500;">
+                                <div class="block-panel panel">
+                                    <div class="element-brands text-primary dark:text-white mask-x">
+                                        <div class="swiper" data-uc-swiper="items: 2.25; center: true; center-bounds: true; autoplay: 7000; loop: true; speed: 7000; autoplay-delay: -1; allowTouchMove: false; disableOnInteraction: true;" data-uc-swiper-s="items: 4; center: false; center-bounds: false;" data-uc-swiper-m="items: 5; gap: 64;">
+                                            <div class="swiper-wrapper items-center ease-linear">
+                                                <div class="brand-item swiper-slide text-center">
+                                                    <img class="brand-item-image h-40px dark:d-none" src="../static/images_pages/mysql-logo.svg" alt="logo mysql">
+                                                </div>
+                                                <div class="brand-item swiper-slide text-center">
+                                                    <img class="brand-item-image h-40px dark:d-none" src="../static/images_pages/openai_logo.svg" alt="logo openai">
+                                                </div>
+                                                <div class="brand-item swiper-slide text-center">
+                                                    <img class="brand-item-image h-40px dark:d-none" src="../static/images_pages/python_logo.svg" alt="logo python">
+                                                </div>
+                                                <div class="brand-item swiper-slide text-center">
+                                                    <div style="display: flex;align-items: center;">
+                                                        <img class="brand-item-image h-40px dark:d-none" src="../static/images_pages/js_logo.svg" alt="logo JavaScript">
+                                                        <span style="color: #202020; font-size: 1.5rem; font-weight: 500; margin-left: 6px;">JavaScript</span>
+                                                    </div>
+                                                </div>
+                                                <div class="brand-item swiper-slide text-center">
+                                                    <img class="brand-item-image h-40px dark:d-none" src="../static/images_pages/azure-logo.svg" alt="logo azure">
+                                                </div>
+                                                <div class="brand-item swiper-slide text-center">
+                                                    <img class="brand-item-image h-40px dark:d-none" src="../static/images_pages/meta-logo2.svg" alt="logo meta" >
+                                                </div>
+
+                                                <!-- <div class="brand-item swiper-slide text-center">
+                                                    <img class="brand-item-image h-40px dark:d-none" src="https://unistudio.co/html/lexend/assets/images/brands/brand-08.svg" alt="PinPoint">
+                                                    <img class="brand-item-image h-40px d-none dark:d-inline-flex" src="https://unistudio.co/html/lexend/assets/images/brands/brand-08-dark.svg" alt="PinPoint">
+                                                </div> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section end -->
+
+            <!-- Section start -->
+            <div id="facts_numbers" class="facts-numbers section panel overflow-hidden">
+                <div class="section-outer panel pt-4 md:pt-6 xl:pt-9">
+                    <div class="container sm:max-w-lg xl:max-w-xl">
+                        <div class="section-inner panel">
+                            <div class="panel vstack items-center gap-2 mb-4 lg:mb-8 max-w-800px mx-auto text-center" data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});">
+                                <h2 class="h4 md:h3 m-0">Libera las tareas de tu Empresa.</h2>
+                                <p class="fs-6 xl:fs-5 text-dark dark:text-white text-opacity-70">Chippy, el Sistema de automatizacón amplio y eficiente.</p>
+                            </div>
+                            <div class="panel p-6 xl:p-8 rounded-1-5 lg:rounded-2 bg-secondary dark:bg-gray-800" data-anime="onview: -200; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 350;">
+                                <div class="row child-cols col-match items-center justify-center text-center gy-4 lg:gy-8" data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 500});">
+                                    <div>
+                                        <div class="fact-item panel vstack gap-1">
+                                            <h5 class="h3 md:h2 lg:h1 xl:display-5 m-0 text-primary dark:text-secondary">3660+</h5>
+                                            <p class="fw-medium">Interacción diaria con tus Clientes</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="fact-item panel vstack gap-1">
+                                            <h5 class="h3 md:h2 lg:h1 xl:display-5 m-0 text-primary dark:text-secondary">99%</h5>
+                                            <p class="fw-medium">Clientes Satisfechos</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="fact-item panel vstack gap-1">
+                                            <h5 class="h3 md:h2 lg:h1 xl:display-5 m-0 text-primary dark:text-secondary">24/7</h5>
+                                            <p class="fw-medium">Hasta 24:00 diarias de servicios</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section end -->
+
+            <!-- Section start -->
+            <div id="main_features" class="main-features section panel overflow-hidden">
+                <div class="section-outer panel py-4 md:py-6 xl:py-9">
+                    <div class="container sm:max-w-lg xl:max-w-xl">
+                        <div class="section-inner panel">
+                            <div class="panel vstack items-center gap-2 xl:gap-3 mb-4 lg:mb-8 max-w-650px mx-auto text-center" data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});">
+                                <span class="fw-bold text-primary dark:text-secondary">Detalles principales</span>
+                                <h2 class="h3 lg:h2 xl:h1 m-0">La automatización que te proporciona un Vendedor con capacidades extraordinarias</h2>
+                                <p class="fs-6 xl:fs-5 text-dark dark:text-white text-opacity-70">Unete al avance tecnologico que usan más de 600 millones de personas.</p>
+                            </div>
+                            <div class="row child-cols-12 g-6 md:g-8 xl:g-6" data-uc-scrollspy="target: >*; delay: 500; cls: uc-animation-slide-bottom-medium">
+                                <div>
+                                    <div class="feature-item panel">
+                                        <div class="row child-cols items-center justify-between g-2 md:g-4">
+                                            <div class="col-12 md:col-6 lg:col-5">
+                                                <div class="panel overflow-hidden rounded-1-5 lg:rounded-2">
+                                                    <figure class="featured-image m-0 rounded ratio ratio-1x1 rounded-2 overflow-hidden">
+                                                        <img class="media-cover image" src="../static/images_pages/UI-interfaz.png" alt="Ensuring timely delivery and maximum efficiency">
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 md:col-6 lg:col-6">
+                                                <div class="panel">
+                                                    <div class="panel vstack justify-center gap-4 h-100 sm:p-3 lg:p-4">
+                                                        <div>
+                                                            <div class="panel vstack gap-2">
+                                                                <span class="cstack w-48px h-48px bg-primary text-secondary rounded-1-5 mb-2 d-none lg:d-inline-flex">
+                                                                    <i class="bi bi-chat-right-text"></i>
+                                                                </span>
+                                                                <h3 class="h4 sm:h3 xl:h2 m-0">Interaccion profesional con tus clientes</h3>
+                                                                <p class="fs-6 lg:fs-5 opacity-70 dark:opacity-80">Ofrecemos la adaptabilidad al modelo de tu Empresa con mejoras sustanciales, planeaciones en ventas interactivas, tareas complejas</p>
+                                                                <a href="#" class="uc-link dark:text-secondary fw-bold hstack gap-narrow sm:mt-1 lg:mt-2">
+                                                                    <span>Vamos!, Averigualo</span>
+                                                                    <!-- <i class="position-relative icon icon-1 unicon-arrow-right rtl:rotate-180 translate-y-px"></i> -->
+                                                                    <i class="position-relative icon bi bi-arrow-right rtl:rotate-180 translate-y-px"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="feature-item panel">
+                                        <div class="row child-cols items-center justify-between g-2 md:g-4">
+                                            <div class="col-12 md:col-6 lg:col-5 md:order-2">
+                                                <div class="panel overflow-hidden rounded-1-5 lg:rounded-2">
+                                                    <figure class="featured-image m-0 rounded ratio ratio-1x1 rounded-2 overflow-hidden">
+                                                        <img class="media-cover image" src="../static/images_pages/UI-interfaz.png" alt="No more digging endless reports and spreadsheets">
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 md:col-6 lg:col-6 md:order-1">
+                                                <div class="panel">
+                                                    <div class="panel vstack justify-center gap-4 h-100 sm:p-3 lg:p-4">
+                                                        <div>
+                                                            <div class="panel vstack gap-2">
+                                                                <span class="cstack w-48px h-48px bg-primary text-secondary rounded-1-5 mb-2 d-none lg:d-inline-flex">
+                                                                    <i class="bi bi-person-workspace"></i>
+                                                                </span>
+                                                                <h3 class="h4 sm:h3 xl:h2 m-0">Automatización de interacciones en WhatsApp</h3>
+                                                                <p class="fs-6 lg:fs-5 opacity-70 dark:opacity-80">Nuestro chatbot con IA gestiona conversaciones con tus clientes en WhatsApp, respondiendo preguntas, recopilando información y realizando tareas automatizadas para ahorrar tiempo y recursos.</p>
+                                                                <a href="#" class="uc-link dark:text-secondary fw-bold hstack gap-narrow sm:mt-1 lg:mt-2">
+                                                                    <span>Solicitalo Ahora</span>
+                                                                    <i class="position-relative icon bi bi-arrow-right rtl:rotate-180 translate-y-px"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="feature-item panel">
+                                        <div class="row child-cols items-center justify-between g-2 md:g-4">
+                                            <div class="col-12 md:col-6 lg:col-5">
+                                                <div class="panel overflow-hidden rounded-1-5 lg:rounded-2">
+                                                    <figure class="featured-image m-0 rounded ratio ratio-1x1 rounded-2 overflow-hidden">
+                                                        <img class="media-cover image" src="../static/images_pages/UI-interfaz.png" alt="Share files, and communicate with your team in real-time">
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 md:col-6 lg:col-6">
+                                                <div class="panel">
+                                                    <div class="panel vstack justify-center gap-4 h-100 sm:p-3 lg:p-4">
+                                                        <div>
+                                                            <div class="panel vstack gap-2">
+                                                                <span class="cstack w-48px h-48px bg-primary text-secondary rounded-1-5 mb-2 d-none lg:d-inline-flex">
+                                                                    <i class=" bi bi-clipboard-data"></i>
+                                                                </span>
+                                                                <h3 class="h4 sm:h3 xl:h2 m-0">Análisis de datos y toma de decisiones</h3>
+                                                                <p class="fs-6 lg:fs-5 opacity-70 dark:opacity-80">Proporcionamos insights valiosos a través del análisis de datos, permitiéndote tomar decisiones informadas y estratégicas para impulsar el crecimiento de tu negocio.</p>
+                                                                <a href="#" class="uc-link dark:text-secondary fw-bold hstack gap-narrow sm:mt-1 lg:mt-2">
+                                                                    <span>Vamos!, averigualo</span>
+                                                                    <i class="position-relative icon bi bi-arrow-right rtl:rotate-180 translate-y-px"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="feature-item panel">
+                                        <div class="row child-cols items-center justify-between g-2 md:g-4">
+                                            <div class="col-12 md:col-6 lg:col-5 md:order-2">
+                                                <div class="panel overflow-hidden rounded-1-5 lg:rounded-2">
+                                                    <figure class="featured-image m-0 rounded ratio ratio-1x1 rounded-2 overflow-hidden">
+                                                        <img class="media-cover image" src="../static/images_pages/UI-interfaz.png" alt="Collaboration is made seamless with Lexend">
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 md:col-6 lg:col-6 md:order-1">
+                                                <div class="panel">
+                                                    <div class="panel vstack justify-center gap-4 h-100 sm:p-3 lg:p-4">
+                                                        <div>
+                                                            <div class="panel vstack gap-2">
+                                                                <span class="cstack w-48px h-48px bg-primary text-secondary rounded-1-5 mb-2 d-none lg:d-inline-flex">
+                                                                    <i class="bi bi-building-gear"></i>
+                                                                </span>
+                                                                <h3 class="h4 sm:h3 xl:h2 m-0">Personalización en estrategia de Negocio</h3>
+                                                                <p class="fs-6 lg:fs-5 opacity-70 dark:opacity-80">Nuestra IA analiza las interacciones con tus clientes para ofrecer respuestas personalizadas y relevantes, mejorando la experiencia del usuario y aumentando la satisfacción.</p>
+                                                                <a href="#" class="uc-link dark:text-secondary fw-bold hstack gap-narrow sm:mt-1 lg:mt-2">
+                                                                    <span>Solicitalo Ahora</span>
+                                                                    <i class="position-relative icon bi bi-arrow-right rtl:rotate-180 translate-y-px"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section end -->
+
+            <!-- Section start -->
+            <div id="pre_cta" class="pre-cta section panel overflow-hidden">
+                <div class="section-outer panel pb-4 sm:pb-6 xl:pb-9">
+                    <div class="container max-w-xl">
+                        <div class="section-inner panel p-4 md:p-6 lg:p-8 rounded-1-5 lg:rounded-2 bg-secondary dark:bg-gray-800 dark:text-white" data-anime="onview: -200; translateY: [24, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500;">
+                            <div class="vstack items-center gap-2 sm:max-w-600px lg:max-w-650px mx-auto text-center" data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});">
+                                <h2 class="h3 lg:h2 m-0">Solicita la demostración Directa</h2>
+                                <p class="fs-6 md:fs-5 xl:fs-4 text-dark dark:text-white text-opacity-70">Únase a más empresas que utilizan esta tecnología, multiplicando sus beneficios.</p>
+                                <div class="vstack sm:hstack justify-center gap-1 lg:gap-2 mt-1 lg:mt-2">
+                                    <a href="#uc-contact-modal" class="btn btn-md rounded-default bg-white dark:bg-gray-700 dark:text-white border-gray-900 dark:border-white border-opacity-20 hover:border-opacity-40 shadow-xs" data-uc-toggle>
+                                        <i class=" bi bi-bullseye fw-medium"></i>
+                                        <span>Solicitar Demo</span>
+                                    </a>
+                                    <a class='btn btn-md btn-primary rounded-default text-white shadow-xs' href='page-pricing.html'>Contácto Directo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section end -->
+
+            <!-- Section start -->
+            <div id="pricing_tiers" class="pricing-tiers section panel overflow-hidden">
+                <div class="section-outer panel py-4 md:py-6 xl:py-9 rounded-1-5 lg:rounded-2 bg-primary-600 dark:bg-primary text-white">
+                    <div class="container sm:max-w-lg xl:max-w-xl">
+                        <div class="section-inner panel">
+                            <div class="panel vstack gap-4 sm:gap-6 xl:gap-8">
+                                <div class="heading vstack gap-2 panel max-w-550px mx-auto text-center" data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});">
+                                    <span class="fw-bold text-secondary">Precios</span>
+                                    <h2 class="title h3 lg:h2 xl:h1 text-white m-0">Precios, simples y escalables.</h2>
+                                    <p class="fs-6 xl:fs-5 text-white text-opacity-70">Integración inicial</p>
+                                </div>
+                                <div class="content panel">
+                                    <div class="row child-cols-12 sm:child-cols-6 xl:child-cols-4 col-match justify-center g-2 lg:g-4" data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 400});">
+                                        <div>
+                                            <div class="tier panel vstack justify-between rounded-1-5 lg:rounded-2 bg-secondary text-dark text-center">
+                                                <header class="tier-header vstack gap-2 items-center p-3 md:p-4 pb-0 md:pb-0 pt-4 md:pt-6">
+                                                    <span class="icon-box cstack w-48px h-48px rounded-circle bg-white text-primary shadow-xs">
+                                                        <i class="bi bi-buildings fw-bold fs-5 fw-bold" ></i>
+                                                    </span>
+                                                    <h5 class="h5 lg:h4 m-0 text-primary">Plan Enterprise</h5>
+                                                    <div class="d-flex gap-narrow items-end mt-1">
+                                                        <h3 class="h1 lg:display-6 price m-0 text-dark">$299</h3>
+                                                        <span class="h6 lg:h3 m-0 pb-narrow text-dark">/ mes</span>
+                                                    </div>
+                                                    <p class="desc">Facturado mensualmente.</p>
+                                                </header>
+                                                <div class="tier-body p-3 md:p-4">
+                                                    <ul class="nav-y gap-2 text-start">
+                                                        <li class="hstack items-start gap-1">
+                                                            <i class="cstack w-24px h-24px bg-primary-100 text-primary rounded-circle bi bi-check-lg fw-bold"></i>
+                                                            <span class="d-inline">Hasta 10 usuarios individuales</span>
+                                                        </li>
+                                                        <li class="hstack items-start gap-1">
+                                                            <i class="cstack w-24px h-24px bg-primary-100 text-primary rounded-circle bi bi-check-lg fw-bold"></i>
+                                                            <span class="d-inline">Informes y análisis personalizables</span>
+                                                        </li>
+                                                        <li class="hstack items-start gap-1">
+                                                            <i class="cstack w-24px h-24px bg-primary-100 text-primary rounded-circle bi bi-check-lg fw-bold"></i>
+                                                            <span class="d-inline">Subida de activos ilimitados</span>
+                                                        </li>
+                                                        <li class="hstack items-start gap-1">
+                                                            <i class="cstack w-24px h-24px bg-primary-100 text-primary rounded-circle bi bi-check-lg fw-bold"></i>
+                                                            <span class="d-inline">Soporte de <b>SSO</b> y roles de usuario personalizados</span>
+                                                        </li>
+                                                        <li class="hstack items-start gap-1">
+                                                            <i class="cstack w-24px h-24px bg-primary-100 text-primary rounded-circle bi bi-check-lg fw-bold"></i>
+                                                            <span class="d-inline">Envio masivo de formularios</span>
+                                                        </li>
+                                                        <li class="hstack items-start gap-1">
+                                                            <i class="cstack w-24px h-24px bg-primary-100 text-primary rounded-circle bi bi-check-lg fw-bold"></i>
+                                                            <span class="d-inline">Acceso a nuevas funciones en desarrollo</span>
+                                                        </li>
+                                                        <li class="hstack items-start gap-1">
+                                                            <i class="cstack w-24px h-24px bg-primary-100 text-primary rounded-circle bi bi-check-lg fw-bold "></i>
+                                                            <span class="d-inline">Asistencia técnica continua, soporte proactivo, consultas personalizadas</span>
+                                                        </li>
+                                                        <li class="hstack items-start gap-1">
+                                                            <i class="cstack w-24px h-24px bg-primary-100 text-primary rounded-circle bi bi-check-lg fw-bold"></i>
+                                                            <span class="d-inline">Integración con CRM <b>adaptable</b></span>
+                                                        </li>
+                                                        <li class="hstack items-start gap-1">
+                                                            <i class="cstack w-24px h-24px bg-primary-100 text-primary rounded-circle bi bi-check-lg fw-bold"></i>
+                                                            <span class="d-inline">Interfaz en gestion de productos, analisis de ventas</span>
+                                                        </li>
+                                                        <li class="hstack items-start gap-1">
+                                                            <i class="cstack w-24px h-24px bg-primary-100 text-primary rounded-circle bi bi-check-lg fw-bold"></i>
+                                                            <span class="d-inline">Informes de seguimiento clientes</span>
+                                                        </li>
+                                                        <li class="hstack items-start gap-1">
+                                                            <i class="cstack w-24px h-24px bg-primary-100 text-primary rounded-circle bi bi-check-lg fw-bold"></i>
+                                                            <span class="d-inline">Flujos de interacción personalizables</span>
+                                                        </li>
+                                                        <li class="hstack items-start gap-1">
+                                                            <i class="cstack w-24px h-24px bg-primary-100 text-primary rounded-circle bi bi-check-lg fw-bold"></i>
+                                                            <span class="d-inline">Integraccion con <b>Whatsapp</b>, otros</span>
+                                                        </li>
+                                                        <li class="hstack items-start gap-1">
+                                                            <i class="cstack w-24px h-24px bg-primary-100 text-primary rounded-circle bi bi-hourglass-split fw-bold"></i>
+                                                            <span class="d-inline">Proximamente...</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <footer class="tier-footer p-3 md:p-4 border-top">
+                                                    <a class='btn btn-md btn-primary text-white rounded-default w-100' href='/form_demo'>
+                                                        <span>Reservar Demostración</span>
+                                                    </a>
+                                                </footer>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="tier panel vstack justify-between rounded-1-5 lg:rounded-2 bg-secondary text-dark text-center">
+                                                <span class="fs-7 position-absolute top-0 end-0 fw-bold text-uppercase text-primary my-2 mx-3">Popular</span>
+                                                <header class="tier-header vstack gap-2 items-center p-3 md:p-4 pb-0 md:pb-0 pt-4 md:pt-6">
+                                                    <span class="icon-box cstack w-48px h-48px rounded-circle bg-white text-primary shadow-xs">
+                                                        <i class="bi bi-briefcase fw-bold fs-5"></i>
+                                                    </span>
+                                                    <h5 class="h5 lg:h4 m-0 text-primary">Plan Negocios</h5>
+                                                    <div class="d-flex gap-narrow items-end mt-1">
+                                                        <h3 class="h1 lg:display-6 price m-0 text-dark">$199</h3>
+                                                        <span class="h6 lg:h3 m-0 pb-narrow text-dark">/ mes    </span>
+                                                    </div>
+                                                    <p class="desc">Facturado mensualmente</p>
+                                                </header>
+                                                <div class="tier-body p-3 md:p-4">
+                                                    <ul class="nav-y gap-2 text-start">
+                                                        <li class="hstack items-start gap-1">
+                                                            <i class="cstack w-24px h-24px bg-primary-100 text-primary rounded-circle bi bi-check-lg fw-bold"></i>
+                                                            <span class="d-inline">Acceso a las funciones <b>estandar</b></span>
+                                                        </li>
+                                                        <li class="hstack items-start gap-1">
+                                                            <i class="cstack w-24px h-24px bg-primary-100 text-primary rounded-circle bi bi-check-lg fw-bold"></i>
+                                                            <span class="d-inline">Integración con <b>Whatsapp</b></span>
+                                                        </li>
+                                                        <li class="hstack items-start gap-1">
+                                                            <i class="cstack w-24px h-24px bg-primary-100 text-primary rounded-circle bi bi-check-lg fw-bold"></i>
+                                                            <span class="d-inline">Capacitacíon para usuarios</span>
+                                                        </li>
+                                                        <li class="hstack items-start gap-1">
+                                                            <i class="cstack w-24px h-24px bg-primary-100 text-primary rounded-circle bi bi-check-lg fw-bold"></i>
+                                                            <span class="d-inline">Flujos de trabajo adaptable</span>
+                                                        </li>
+                                                        <li class="hstack items-start gap-1">
+                                                            <i class="cstack w-24px h-24px bg-primary-100 text-primary rounded-circle bi bi-check-lg fw-bold"></i>
+                                                            <span class="d-inline">Informes de interaccion*</span>
+                                                        </li>
+                                                        <li class="hstack items-start gap-1">
+                                                            <i class="cstack w-24px h-24px bg-primary-100 text-primary rounded-circle bi bi-check-lg fw-bold"></i>
+                                                            <span class="d-inline">Interfaces estándar</span>
+                                                        </li>
+                                                        <li class="hstack items-start gap-1">
+                                                            <i class="cstack w-24px h-24px bg-primary-100 text-primary rounded-circle bi bi-check-lg fw-bold"></i>
+                                                            <span class="d-inline">Respuestas más <b>personalizadas</b></span>
+                                                        </li>
+                                                        <li class="hstack items-start gap-1">
+                                                            <i class="cstack w-24px h-24px bg-primary-100 text-primary rounded-circle bi bi-check-lg fw-bold"></i>
+                                                            <span class="d-inline">Soporte por canales y horarios</span>
+                                                        </li>
+                                                        <li class="hstack items-start gap-1">
+                                                            <i class="cstack w-24px h-24px bg-primary-100 text-primary rounded-circle bi bi-clipboard2-plus fw-bold"></i>
+                                                            <span class="d-inline">Opcion de Integrar pagos*</span>
+                                                        </li>
+                                                        <li class="hstack items-start gap-1">
+                                                            <i class="cstack w-24px h-24px bg-primary-100 text-primary rounded-circle bi bi-check-lg fw-bold"></i>
+                                                            <span class="d-inline"><b>Actualizaciones</b> y mejoras regulares</span>
+                                                        </li>
+                                                        <li class="hstack items-start gap-1">
+                                                            <i class="cstack w-24px h-24px bg-primary-100 text-primary rounded-circle bi bi-clipboard2-plus fw-bold"></i>
+                                                            <span class="d-inline">Integraciones adiconales*</span>
+                                                        </li>
+                                                        <li class="hstack items-start gap-1" style="opacity: 0 !important;">
+                                                            <i class="cstack w-24px h-24px bg-primary-100 text-primary rounded-circle bi bi-check-lg fw-bold"></i>
+                                                            <span class="d-inline">None</span>
+                                                        </li>
+                                                        <li class="hstack items-start gap-1" style="opacity: 0 !important;">
+                                                            <i class="cstack w-24px h-24px bg-primary-100 text-primary rounded-circle bi bi-check-lg fw-bold"></i>
+                                                            <span class="d-inline">None</span>
+                                                        </li>
+                                                        <li class="hstack items-start gap-1" style="opacity: 0 !important;">
+                                                            <i class="cstack w-24px h-24px bg-primary-100 text-primary rounded-circle bi bi-check-lg fw-bold"></i>
+                                                            <span class="d-inline">None</span>
+                                                        </li>
+                                                        <li class="hstack items-start gap-1" style="opacity: 0 !important;">
+                                                            <i class="cstack w-24px h-24px bg-primary-100 text-primary rounded-circle bi bi-check-lg fw-bold"></i>
+                                                            <span class="d-inline">None</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <footer class="tier-footer p-3 md:p-4 border-top">
+                                                    <a class='btn btn-md btn-primary text-white rounded-default w-100' href='/form_demo'>
+                                                        <span>Solicitar Demostracíon</span>
+                                                    </a>
+                                                </footer>
+                                            </div>
+                                        </div>
+                                  
+                                    </div>
+                                </div>
+                                <p class="text-center text-white text-opacity-70" data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 200;">Precios excluyen impuestos y adicionales*</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section end -->
+
+            <!-- Section start -->
+            <div id="clients_feedbacks" class="clients-feedbacks section panel overflow-hidden">
+                <div class="section-outer panel pt-4 md:pt-6 xl:pt-9">
+                    <div class="container max-w-lg">
+                        <div class="section-inner panel">
+                            <div class="panel vstack justify-center items-center gap-4 sm:gap-6 xl:gap-8" data-anime="onview: -100; targets: > *; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});">
+                                <div class="row child-cols-12 justify-center col-match g-2 lg:g-3" data-uc-grid>
+                                    <div>
+                                        <div class="panel vstack justify-between gap-3 rounded-2 bg-secondary dark:bg-gray-800 overflow-hidden">
+                                            <div class="row child-cols-12 col-match g-0" data-uc-grid>
+                                                <div class="sm:col-6 lg:col-8">
+                                                    <div class="panel vstack justify-between gap-3 px-3 py-4 lg:px-5 lg:py-6">
+                                                        <div class="panel vstack items-start gap-2">
+                                                            <div class="panel">
+                                                                <div class="hstack h-48px">
+                                                                    <img class="w-128px dark:d-none" src="https://unistudio.co/html/lexend/assets/images/brands/brand-08.svg" alt="Brand">
+                                                                    <img class="w-128px d-none dark:d-inline-flex" src="https://unistudio.co/html/lexend/assets/images/brands/brand-08-dark.svg" alt="Brand">
+                                                                </div>
+                                                            </div>
+                                                            <p class="fs-5 lg:fs-4 xl:fs-3 fw-medium text-dark dark:text-white">"En la era digital actual, adaptarse a la tecnología no es una opción, es una necesidad. Quienes no se adaptan, se arriesgan a quedar atrás, mientras que aquellos que abrazan el cambio pueden aprovechar nuevas oportunidades y mantenerse competitivos. La tecnología es el motor del progreso y la innovación, y aquellos que la ignoran pueden perder terreno rápidamente."</p>
+                                                        </div>
+                                                        <div class="panel mt-2 lg:mt-4" style="display: flex;">
+                                                            <div class="panel vstack items-start gap-0 lg:gap-1">
+                                                                <h6 class="h6 lg:h5 m-0">Elon Musk</h6>
+                                                                <span class="fs-7 lg:h6 opacity-70">CEO Industry Tecnology</span>
+                                                            </div>
+                                                            <div class="panel vstack items-start gap-0 lg:gap-1">
+                                                                <h6 class="h6 lg:h5 m-0">Sam Altman</h6>
+                                                                <span class="fs-7 lg:h6 opacity-70">CEO Openai</span>
+                                                            </div>
+                                                            <div class="panel vstack items-start gap-0 lg:gap-1">
+                                                                <h6 class="h6 lg:h5 m-0">Mark Zuckerberg</h6>
+                                                                <span class="fs-7 lg:h6 opacity-70">Co-Fundador y CEO de Meta</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="sm:col-6 lg:col-4">
+                                                    <div class="panel overflow-hidden h-100" data-uc-lightbox="video-autoplay: true;">
+                                                        <figure class="featured-image m-0 rounded ratio ratio-1x1 h-100 uc-transition-toggle overflow-hidden">
+                                                            <img class="media-cover image uc-transition-scale-up uc-transition-opaque" src="../static/images_pages/CEO.webp" alt="image">
+                                                        </figure>
+                                                        <a href="https://www.youtube.com/watch?v=lduOZ-DrhOo" class="position-absolute top-50 start-50 translate-middle cstack w-48px lg:w-64px h-48px lg:h-64px rounded-circle shadow-xs text-none bg-white bg-opacity-80 text-primary" data-caption="Beneficios de la IA para Empresas:" data-attrs="width: 640; height: 480;" style="backdrop-filter: blur(2px)">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-play-btn-fill" viewBox="0 0 16 16">
+                                                                <path d="M0 12V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2m6.79-6.907A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                                                            </svg>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#" class="uc-link dark:text-secondary fw-bold d-inline-flex items-center gap-narrow">
+                                    <span>Ver todos los comentarios</span>
+                                    <i class="position-relative icon bi bi-arrow-right rtl:rotate-180 translate-y-px fw-bold fs-5"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section end -->
+
+            <!-- Section start -->
+            <div id="faq" class="section panel overflow-hidden">
+                <div class="section-outer panel py-4 md:py-6 xl:py-9">
+                    <div class="container max-w-md">
+                        <div class="section-inner panel" data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});">
+                            <div class="panel vstack gap-4 md:gap-6 lg:gap-8">
+                                <h2 class="h4 sm:h3 lg:h2 m-0 text-center">Preguntas frecuentes:</h2>
+                                <div class="panel">
+                                    <ul class="gap-1" data-uc-accordion="targets: > li;">
+                                        <li class="panel p-3 lg:p-4 rounded-1-5 lg:rounded-2 bg-secondary dark:bg-gray-800">
+                                            <a class="uc-accordion-title fs-5 sm:fs-4" href="#">Necesito configurar el sistema?</a>
+                                            <div class="uc-accordion-content">
+                                                <p>Claro de no, ya que el sistema se personaliza para para negocio o empresa.</p>
+                                            </div>
+                                        </li>
+                                        <li class="panel p-3 lg:p-4 rounded-1-5 lg:rounded-2 bg-secondary dark:bg-gray-800">
+                                            <a class="uc-accordion-title fs-5 sm:fs-4" href="#">Puedo vender decenas de productos?</a>
+                                            <div class="uc-accordion-content">
+                                                <p>Por supuesto que sí, ya que el servicio tiene un alto margen de soporte de datos.</p>
+                                            </div>
+                                        </li>
+                                        <li class="panel p-3 lg:p-4 rounded-1-5 lg:rounded-2 bg-secondary dark:bg-gray-800">
+                                            <a class="uc-accordion-title fs-5 sm:fs-4" href="#">Toma tiempo aprender a usar el sistema?</a>
+                                            <div class="uc-accordion-content">
+                                                <p>Definitivamente casi nada, solo toma unos minutos.</p>
+                                            </div>
+                                        </li>
+                                        <li class="panel p-3 lg:p-4 rounded-1-5 lg:rounded-2 bg-secondary dark:bg-gray-800">
+                                            <a class="uc-accordion-title fs-5 sm:fs-4" href="#">Cómo funciona la Aplicación?</a>
+                                            <div class="uc-accordion-content">
+                                                <p>La aplicación web y sistema se divide en un asistente de Inteligencia Artificial de ultima generación con servicios de interfaz visual.</p>
+                                            </div>
+                                        </li>
+                                        <li class="panel p-3 lg:p-4 rounded-1-5 lg:rounded-2 bg-secondary dark:bg-gray-800">
+                                            <a class="uc-accordion-title fs-5 sm:fs-4" href="#">Qué tipo de soporte y ayuda ofrece el servicio?</a>
+                                            <div class="uc-accordion-content">
+                                                <p>El servicio puede alcanzar el punto de equilibrio, equivalente a más de 6 veces la capacidad experimentada de una persona.</p>
+                                            </div>
+                                        </li>
+                                        <!-- <li class="panel p-3 lg:p-4 rounded-1-5 lg:rounded-2 bg-secondary dark:bg-gray-800">
+                                            <a class="uc-accordion-title fs-5 sm:fs-4" href="#">
+                                              <i class="unicon-add"></i> Qué tipo de soporte y ayuda ofrece el servicio?
+                                            </a>
+                                            <div class="uc-accordion-content">
+                                              <p>El servicio puede alcanzar el punto de equilibrio, equivalente a más de 6 veces la capacidad experimentada de una persona.</p>
+                                            </div>
+                                          </li> -->
+                                    </ul>
+                                </div>
+                                <a href="#" class="uc-link dark:text-secondary fw-bold d-inline-flex items-center gap-narrow mx-auto">
+                                    <span>Tines más preguntas?</span>
+                                    <i class="icon icon-1 unicon-arrow-right rtl:rotate-180"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Section end -->
+
+            <!-- Section start -->
+            <div id="cta" class="cta section panel overflow-hidden">
+                <div class="section-outer panel pt-4 sm:pt-6 xl:pt-9">
+                    <div class="container max-w-xl">
+                        <div class="section-inner">
+                            <div class="vstack items-center gap-narrow max-w-400px lg:max-w-700px mx-auto text-center" data-anime="onview:-100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});">
+                                <h2 class="h4 lg:h3 m-0">Contrata nuestro servicio al mejor precio</h2>
+                                <p class="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70 mt-1 lg:mt-2">Inicia solicitando una demostración</p>
+                                <div class="vstack sm:hstack justify-center gap-1 lg:gap-2 mt-2 lg:mt-4">
+                                    <a href="#uc-contact-modal" class="btn btn-md rounded-default bg-white dark:bg-gray-700 dark:text-white border-gray-900 dark:border-white border-opacity-20 hover:border-opacity-40 shadow-xs" data-uc-toggle>
+                                        <i class="icon-1 unicon-play-outline fw-medium"></i>
+                                        <span>Solicitar Demo</span>
+                                    </a>
+                                    <a class='btn btn-md btn-primary rounded-default text-white shadow-xs' href='/whatsapp'>Contácto directo</a>
+                                </div>
+                                <p class="fs-7 text-dark dark:text-white text-opacity-70 mt-2">Demo valido por agendamiento</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section end -->
+        </div>
+
+        <!-- Wrapper end -->
+
+        <!-- Footer start -->
+        <footer id="uc-footer" class="uc-footer panel py-4 lg:py-6 xl:py-9 overflow-hidden">
+            <div class="container max-w-xl">
+                <div class="footer-inner vstack gap-4 lg:gap-6 xl:gap-8" data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});">
+                    <div class="uc-footer-top panel p-4 lg:p-6 rounded-1-5 lg:rounded-2 bg-secondary dark:bg-gray-800">
+                        <div class="vstack lg:hstack gap-4 justify-between">
+                            <div>
+                                <div class="uc-logo">
+                                    <a class='panel text-none' href='index-4.html' style='width: 140px'>
+                                        <!-- <img class="dark:d-none" src="https://unistudio.co/html/lexend/assets/images/common/logo-light.svg" alt="">
+                                        <img class="d-none dark:d-block" src="https://unistudio.co/html/lexend/assets/images/common/logo-dark.svg" alt=""> -->
+                                        <img class="d-none dark:d-block" src="../static/images_pages/logo-AI.svg" alt="">
+                                        <img class="dark:d-none" src="../static/images_pages/logo-AI-dark.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- <div>
+                                <div class="hstack items-start gap-1">
+                                    <a href="#">
+                                        <img class="text-gray-900 dark:text-white hover:text-opacity-70 transition-all duration-150" src="" alt="Google Play Store" data-uc-svg>
+                                        <i class="bi bi-google-play"></i>
+                                    </a>
+                                    <a href="#">
+                                        <img class="text-gray-900 dark:text-white hover:text-opacity-70 transition-all duration-150" src="" alt="Apple Store" data-uc-svg>
+                                        <i class="bi bi-apple"></i>
+                                    </a>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="uc-footer-nav panel">
+                        <div class="row child-cols-6 sm:child-cols col-match g-4">
+                            <div>
+                                <ul class="nav-y gap-1 fw-medium">
+                                    <li class="uc-nav-header opacity-60 lg:mb-2">Inner pages</li>
+                                    <li><a href='/developing'>Features</a></li>
+                                    <li><a href='/developing'>Pricing</a></li>
+                                    <li><a href='/developing'>About</a></li>
+
+                                </ul>
+                            </div>
+                            <div>
+                                <ul class="nav-y gap-1 fw-medium">
+                                    <li class="uc-nav-header opacity-60 lg:mb-2">Blog</li>
+                                    <li><a href='/developing'>Classic</a></li>
+                                    <li><a href='/developing'>Grid 2 cols</a></li>
+                                    <li><a href='/developing'>Grid 3 cols</a></li>
+
+                                </ul>
+                            </div>
+                            <div>
+                                <ul class="nav-y gap-1 fw-medium">
+                                    <li class="uc-nav-header opacity-60 lg:mb-2">Shop</li>
+                                    <li><a href='/developing'>Shop</a></li>
+                                    <li><a href='/developing'>With sidebar</a></li>
+                                    <li><a href='/developing'>Product detail</a></li>
+
+                                </ul>
+                            </div>
+                            <div class="d-none lg:d-block">
+                                <ul class="nav-y gap-1 fw-medium">
+                                    <li class="uc-nav-header opacity-60 lg:mb-2">Other</li>
+                                    <li><a href='/developing'>FAQ</a></li>
+                                    <li><a href='404.html'>404</a></li>
+
+                                </ul>
+                            </div>
+                            <div>
+                                <ul class="nav-y gap-1 fw-medium">
+                                    <li class="uc-nav-header opacity-60 lg:mb-2">Membership</li>
+                                    <li><a href='/developing'>Sign in</a></li>
+                                    <li><a href='/developing'>Sign in v2</a></li>
+ 
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uc-footer-bottom panel vstack gap-4 pt-4 lg:pt-6 border-top dark:text-white">
+                        <div class="vstack sm:hstack justify-center items-center gap-1 lg:gap-2">
+                            <p class="opacity-60">Automatic Gen © 2024, All rights reserved.</p>
+                            <ul class="nav-x gap-2 fw-medium">
+                                <li><a href="#">Política de privacidad</a></li>
+                                <li><a href="#">Términos y condiciones</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer end -->
+
+        
+	<!-- NOTIFICACION DE ENVIO -->
+	{% with messages = get_flashed_messages(with_categories=True, category_filter=['funnel_error', 'funnel_info', 'funnel_warning', 'funnel_success']) %}
+	{% if messages %}
+	<div id="alert-container" class="flash-container" style="position: fixed; bottom: 0; right: 0; z-index: 1050;">
+		{% for category, message in messages %}
+			<div class="alert d-flex align-items-center mb-1 {% if category == 'funnel_error' %}bg-flash-error{% elif category == 'funnel_warning' %}bg-flash-warning{% elif category == 'funnel_info' %}bg-flash-info{% elif category == 'funnel_success' %}bg-flash-success{% endif %}">
+			<i class="bi {% if category == 'funnel_error' %}bi-x-octagon-fill{% elif category == 'funnel_warning' %}bi-exclamation-triangle-fill{% elif category == 'funnel_info' %}bi-info-circle-fill{% elif category == 'funnel_success' %}bi-check-circle-fill{% endif %} fw-bold me-2"></i>
+			<div class="fw-5" style="font-weight: 600;">
+				{{ message }}
+			</div>
+			</div>
+		{% endfor %}
+		</div>
+		<script>
+		setTimeout(function() {
+			document.getElementById("alert-container").style.display = "none";
+		}, 6000);
+		</script>
+	{% endif %}
+	{% endwith %}
+
+
+    <!-- include jquery & bootstrap js -->
+    <script defer src="../static/assets/js/libs/jquery.min.js"></script>
+    <script defer src="../static/assets/js/libs/bootstrap.min.js"></script>
+
+    <!-- include scripts -->
+    <script defer src="../static/assets/js/libs/anime.min.js"></script>
+    <script defer src="../static/assets/js/libs/swiper-bundle.min.js"></script>
+    <script defer src="../static/assets/js/libs/scrollmagic.min.js"></script>
+    <script defer src="../static/assets/js/helpers/data-attr-helper.js"></script>
+    <script defer src="../static/assets/js/helpers/swiper-helper.js"></script>
+    <script defer src="../static/assets/js/helpers/anime-helper.js"></script>
+    <script defer src="../static/assets/js/helpers/anime-helper-defined-timelines.js"></script>
+    <script defer src="../static/assets/js/uikit-components-bs.js"></script>
+
+    <!-- include app script -->
+    <script defer src="../static/assets/js/app.js"></script>
+
+        <script>
+            // Schema toggle via URL
+            const queryString = window.location.search;
+            const urlParams = new URLSearchParams(queryString);
+            const getSchema = urlParams.get("schema");
+            if (getSchema === "dark") {
+                setDarkMode(1);
+            } else if (getSchema === "light") {
+                setDarkMode(0);
+            }
+        </script>
+    </body>
+
+<!-- Mirrored from unistudio.co/html/lexend/main/index-4 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 Jul 2024 00:33:52 GMT -->
+</html>
