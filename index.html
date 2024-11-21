@@ -1,35 +1,43 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">   
+<html lang="en" dir="ltr">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Automatic Gen | landig page</title>
-	<!-- Favicon -->
-	<link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/7747/7747239.png">
-	<link rel="icon" href="https://cdn-icons-png.flaticon.com/512/7747/7747239.png" type="image/x-icon">
-    <meta name="description" content="Full-featured, professional-looking software, saas and startup website template.">
-    <meta name="keywords" content="saas, saas template, site template, software, startup, digital product, html5, landing, marketing, bootstrap, uikit3, agency, ai, digital agency, it solutions, nodejs">
-    <!-- <link rel="canonical" href="https://unistudio.co/html/Lexend"> -->
+    <title>Automatic Gen | Web Solutions for Smart Sales</title>
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/7747/7747239.png">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/7747/7747239.png" type="image/x-icon">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Automatic Gen ofrece soluciones web inteligentes con integración de IA para optimizar sistemas de ventas y potenciar negocios en línea.">
+    <meta name="keywords" content="aplicaciones web, sistemas de ventas, inteligencia artificial, soluciones SaaS, desarrollo web, chatbot, optimización de ventas">
+    <meta name="author" content="Automatic Gen">
     <meta name="theme-color" content="#178d72">
 
-    <!-- Open Graph Tags -->
+    <!-- Open Graph Meta Tags -->
     <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="es_ES">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Lexend">
-    <meta property="og:description" content="Full-featured, Professional-looking SaaS, Software and Startup Site Template.">
-    <!-- <meta property="og:url" content="https://unistudio.co/html/lexend/"> -->
-    <meta property="og:site_name" content="Lexend">
-    <meta property="og:image" content="images/common/seo-image.jpg">
-    <meta property="og:image:width" content="1180">
-    <meta property="og:image:height" content="600">
+    <meta property="og:title" content="Automatic Gen | Potencia tus ventas con IA">
+    <meta property="og:description" content="Aplicaciones web con interfaces intuitivas diseñadas para optimizar sistemas de ventas con inteligencia artificial.">
+    <meta property="og:url" content="https://arogante06.github.io/AutomatinGen"> <!-- Cambia por tu dominio real -->
+    <meta property="og:site_name" content="Automatic Gen">
+    <meta property="og:image" content="https://arogante06.github.io/AutomatinGen/images_pages/A_Gen-logo-light.svg"> <!-- Cambia por tu imagen destacada -->
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
     <meta property="og:image:type" content="image/png">
 
     <!-- Twitter Card Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Lexend">
-    <meta name="twitter:description" content="Full-featured, Professional-looking SaaS, Software and Startup Site Template.">
-    <meta name="twitter:image" content="images/common/seo-image.jpg">
+    <meta name="twitter:title" content="Automatic Gen | Web Solutions for Smart Sales">
+    <meta name="twitter:description" content="Automatic Gen ofrece soluciones web inteligentes con integración de IA para optimizar sistemas de ventas.">
+    <meta name="twitter:image" content="https://www.automaticgen.com/assets/seo-image.jpg"> <!-- Cambia por tu imagen destacada -->
+
+    <!-- Multilanguage Meta Tags -->
+    <!--<link rel="alternate" hreflang="en" href="https://www.automaticgen.com/en"> <!-- Cambia por tu dominio -->
+    <!--<link rel="alternate" hreflang="es" href="https://www.automaticgen.com/es"> <!-- Cambia por tu dominio -->
 
     <link rel="canonical" href="https://unistudio.co/html/lexend/">
 
@@ -898,26 +906,6 @@
 
         
 	<!-- NOTIFICACION DE ENVIO -->
-	{% with messages = get_flashed_messages(with_categories=True, category_filter=['funnel_error', 'funnel_info', 'funnel_warning', 'funnel_success']) %}
-	{% if messages %}
-	<div id="alert-container" class="flash-container" style="position: fixed; bottom: 0; right: 0; z-index: 1050;">
-		{% for category, message in messages %}
-			<div class="alert d-flex align-items-center mb-1 {% if category == 'funnel_error' %}bg-flash-error{% elif category == 'funnel_warning' %}bg-flash-warning{% elif category == 'funnel_info' %}bg-flash-info{% elif category == 'funnel_success' %}bg-flash-success{% endif %}">
-			<i class="bi {% if category == 'funnel_error' %}bi-x-octagon-fill{% elif category == 'funnel_warning' %}bi-exclamation-triangle-fill{% elif category == 'funnel_info' %}bi-info-circle-fill{% elif category == 'funnel_success' %}bi-check-circle-fill{% endif %} fw-bold me-2"></i>
-			<div class="fw-5" style="font-weight: 600;">
-				{{ message }}
-			</div>
-			</div>
-		{% endfor %}
-		</div>
-		<script>
-		setTimeout(function() {
-			document.getElementById("alert-container").style.display = "none";
-		}, 6000);
-		</script>
-	{% endif %}
-	{% endwith %}
-
 
     <!-- include jquery & bootstrap js -->
     <script defer src="assets/js/libs/jquery.min.js"></script>
